@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+	.carousel-gallery-wrapper {
+		width: 100%;
+	}
+	.carousel-hint {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		font-size: 1.1rem;
+		color: #444;
+		margin-bottom: 0.5rem;
+		opacity: 0.8;
+		user-select: none;
+	}
+	.carousel-arrow {
+		font-size: 1.3em;
+		vertical-align: middle;
+	}
+	.carousel-hint-text {
+		font-size: 1em;
+		letter-spacing: 0.1em;
+	}
+	.carousel-gallery {
+		display: flex;
+		overflow-x: auto;
+		gap: 1rem;
+		padding-bottom: 1rem;
+		scroll-snap-type: x mandatory;
+		-webkit-overflow-scrolling: touch;
+	}
+	.carousel-img-wrapper {
+		flex: 0 0 auto;
+		width: 220px;
+		height: 320px;
+		border-radius: 18px;
+		overflow: hidden;
+		scroll-snap-align: start;
+		box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.13);
+		background: #fff;
+	}
+	.carousel-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+}

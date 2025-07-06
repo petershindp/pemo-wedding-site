@@ -1,0 +1,85 @@
+.rsvp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 20vh;
+	width: 100%;
+	position: relative;
+	padding: 3rem 1rem;
+}
+
+.rsvp-section {
+	min-height: 100vh;
+	width: 100vw;
+	background: url("/images/4.jpg") center center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.rsvp-title {
+	font-size: 4rem;
+	color: #ffffff;
+	font-family: "Cormorant Garamond", serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 100;
+	margin-bottom: 1.5rem;
+}
+
+.rsvp-text {
+	font-size: 2rem;
+	color: #ffffff;
+	font-weight: 100;
+	letter-spacing: 3px;
+	font-family: "'Poppins', sans-serif";
+	margin-bottom: 0.25rem;
+	text-align: center;
+	max-width: 600px;
+}
+
+.rsvp-button {
+	margin-top: 2rem;
+	background: linear-gradient(90deg, #ffffff 60%, #dddad8 100%);
+	color: #000000;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.15rem;
+	font-weight: 500;
+	padding: 1rem 2.8rem;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s,
+		box-shadow 0.2s, transform 0.15s;
+	box-shadow: 0 4px 18px 0 rgba(34, 34, 34, 0.1);
+	text-align: center;
+	letter-spacing: 0.04em;
+	position: relative;
+	overflow: hidden;
+}
+
+.rsvp-button::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 40px;
+	background: rgba(255, 255, 255, 0.08);
+	opacity: 0;
+	transition: opacity 0.2s;
+	pointer-events: none;
+}
+
+.rsvp-button:hover,
+.rsvp-button:focus {
+	background: linear-gradient(90deg, #e0e0e0 60%, #b9b9b9 100%);
+	color: #000000;
+	box-shadow: 0 6px 24px 0 rgba(34, 34, 34, 0.18);
+	transform: translateY(-2px) scale(1.03);
+}
+
+.rsvp-button:hover::after,
+.rsvp-button:focus::after {
+	opacity: 1;
+}

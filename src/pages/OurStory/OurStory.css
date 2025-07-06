@@ -1,0 +1,73 @@
+.story-hero {
+	min-height: 100vh;
+	width: 100vw;
+	background: url("/images/snowboard.jpg") center center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.story-hero::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.35);
+	z-index: 1;
+}
+
+.story-hero-content,
+.story-content {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	opacity: 0;
+	transform: translateY(40px);
+	animation: heroFadeIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.story-hero-subtitle {
+	font-size: clamp(2rem, 3vw, 1.5rem);
+	font-weight: 400;
+	letter-spacing: 0em;
+	margin: 5rem;
+	font-family: "'Poppins', sans-serif";
+}
+
+/* Content */
+.story-part-two {
+	min-height: 100vh;
+	width: 100vw;
+	background: url("/images/walking.jpg") center center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.story-part-two::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.35); /* semi-transparent black */
+	z-index: 1;
+}
+.story-content-text {
+	font-size: clamp(1rem, 2.5vw, 1.5rem);
+	font-weight: 400;
+	letter-spacing: 0em;
+	margin: 0;
+	color: #ffffff;
+	font-family: "'Poppins', sans-serif";
+}
+
+/* Gallery */
+.gallery {
+	padding: 2rem;
+	background-color: #f3f4f6; /* Light background for contrast */
+}

@@ -1,0 +1,100 @@
+.navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 32px 0 32px 0;
+	/* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	z-index: 100;
+	opacity: 0;
+	transform: translateY(-30px);
+	transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+		visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+		transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+	visibility: hidden;
+}
+
+.navbar--visible {
+	opacity: 1 !important;
+	transform: translateY(0);
+	visibility: visible;
+}
+
+.navbar--hidden {
+	opacity: 0 !important;
+	visibility: hidden;
+	transform: translateY(-30px);
+	pointer-events: none;
+	transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+		visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+		transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes navbarFadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.navbar-title {
+	font-size: 2rem;
+	font-family: "'Cormorant Garamond', serif";
+	letter-spacing: 10px;
+	margin-bottom: 24px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.navbar-links {
+	display: flex;
+	gap: 30vw;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-links a {
+	text-decoration: none;
+	font-family: "'Poppins', sans-serif";
+	font-weight: 300;
+	letter-spacing: "0.05em";
+	text-transform: "all uppercase";
+	color: #ffffff;
+	font-size: 1.1rem;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+	color: #b48a78;
+}
+
+/* Add this for the white line */
+.navbar::after {
+	content: "";
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 0vw;
+	height: 2px;
+	background: #fff;
+	border-radius: 1px;
+	opacity: 0.8;
+	animation: navbarLineGrow 1s 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes navbarLineGrow {
+	from {
+		width: 0vw;
+	}
+	to {
+		width: 90vw;
+	}
+}
