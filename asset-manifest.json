@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pemo-wedding-site/static/css/main.b8094c27.css",
-    "main.js": "/pemo-wedding-site/static/js/main.0cbcdeab.js",
+    "main.js": "/pemo-wedding-site/static/js/main.da2df938.js",
     "static/js/453.db306b90.chunk.js": "/pemo-wedding-site/static/js/453.db306b90.chunk.js",
     "static/media/walking.jpg": "/pemo-wedding-site/static/media/walking.2eb044855593dc337eba.jpg",
     "static/media/snowboard.jpg": "/pemo-wedding-site/static/media/snowboard.b67f1c9c1f2598caf7ba.jpg",
@@ -27,11 +27,11 @@
     "static/media/logo.svg": "/pemo-wedding-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pemo-wedding-site/index.html",
     "main.b8094c27.css.map": "/pemo-wedding-site/static/css/main.b8094c27.css.map",
-    "main.0cbcdeab.js.map": "/pemo-wedding-site/static/js/main.0cbcdeab.js.map",
+    "main.da2df938.js.map": "/pemo-wedding-site/static/js/main.da2df938.js.map",
     "453.db306b90.chunk.js.map": "/pemo-wedding-site/static/js/453.db306b90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8094c27.css",
-    "static/js/main.0cbcdeab.js"
+    "static/js/main.da2df938.js"
   ]
 }
