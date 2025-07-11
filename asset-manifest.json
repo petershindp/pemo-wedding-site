@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pemo-wedding-site/static/css/main.b8094c27.css",
-    "main.js": "/pemo-wedding-site/static/js/main.da2df938.js",
+    "main.css": "/pemo-wedding-site/static/css/main.fa54574c.css",
+    "main.js": "/pemo-wedding-site/static/js/main.94db8791.js",
     "static/js/453.db306b90.chunk.js": "/pemo-wedding-site/static/js/453.db306b90.chunk.js",
     "static/media/walking.jpg": "/pemo-wedding-site/static/media/walking.2eb044855593dc337eba.jpg",
     "static/media/snowboard.jpg": "/pemo-wedding-site/static/media/snowboard.b67f1c9c1f2598caf7ba.jpg",
@@ -14,7 +14,6 @@
     "static/media/IMG_7256.webp": "/pemo-wedding-site/static/media/IMG_7256.6dec6867fc67df84127f.webp",
     "static/media/hero.jpg": "/pemo-wedding-site/static/media/hero.5093617bee290526c0ca.jpg",
     "static/media/IMG_7239.webp": "/pemo-wedding-site/static/media/IMG_7239.19efa11c76b345c1943e.webp",
-    "static/media/IMG_7252.webp": "/pemo-wedding-site/static/media/IMG_7252.2ac3acaea8f6fe94e092.webp",
     "static/media/IMG_7287.webp": "/pemo-wedding-site/static/media/IMG_7287.08858c44e59854955095.webp",
     "static/media/IMG_7267.webp": "/pemo-wedding-site/static/media/IMG_7267.95583c9b8f47e734d723.webp",
     "static/media/CJ_08548.webp": "/pemo-wedding-site/static/media/CJ_08548.b2f6ee6bfe78843c4339.webp",
@@ -24,14 +23,15 @@
     "static/media/CJ_08165.webp": "/pemo-wedding-site/static/media/CJ_08165.68f7590cf165c6a2a59b.webp",
     "static/media/monicapeter_film-23.webp": "/pemo-wedding-site/static/media/monicapeter_film-23.1b0b9fe3e63a4b563b77.webp",
     "static/media/IMG_7289.webp": "/pemo-wedding-site/static/media/IMG_7289.f720091a2402fb09f860.webp",
+    "static/media/pagelogo.svg": "/pemo-wedding-site/static/media/pagelogo.035f0a0dc3b173ca207759e77c4c1698.svg",
     "static/media/logo.svg": "/pemo-wedding-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pemo-wedding-site/index.html",
-    "main.b8094c27.css.map": "/pemo-wedding-site/static/css/main.b8094c27.css.map",
-    "main.da2df938.js.map": "/pemo-wedding-site/static/js/main.da2df938.js.map",
+    "main.fa54574c.css.map": "/pemo-wedding-site/static/css/main.fa54574c.css.map",
+    "main.94db8791.js.map": "/pemo-wedding-site/static/js/main.94db8791.js.map",
     "453.db306b90.chunk.js.map": "/pemo-wedding-site/static/js/453.db306b90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8094c27.css",
-    "static/js/main.da2df938.js"
+    "static/css/main.fa54574c.css",
+    "static/js/main.94db8791.js"
   ]
 }
