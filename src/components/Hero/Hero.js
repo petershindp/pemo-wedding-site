@@ -7,7 +7,7 @@ const Hero = () => (
 			<h2 className="hero-subtitle">
 				Please join us as we celebrate this joyous union !
 			</h2>
-			<h1 className="hero-title">Peter and Monica</h1>
+			<h1 className="hero-title">Peter & Monica</h1>
 			<div className="hero-date">9.13.25</div>
 		</div>
 	</div>

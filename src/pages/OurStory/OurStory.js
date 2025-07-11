@@ -1,4 +1,3 @@
-import Masonry from "react-responsive-masonry";
 import "./OurStory.css";
 import MasonryGallery from "../../components/MasonryGallery/MasonryGallery";
 
@@ -8,8 +7,9 @@ const OurStory = () => {
 			<div className="story-hero">
 				<div className="story-hero-content">
 					<h2 className="story-hero-subtitle">
-						Peter fell in love with Monica at first sight. <br />
-						Sike! He says he really only "saw her as a friend" *side eye*
+						Peter fell in love with Monica at first sight... Sike! <br />
+						<br />
+						He says he really only "saw her as a friend" *side eye*
 					</h2>
 				</div>
 			</div>

@@ -6,7 +6,7 @@ const faqData = [
 	{
 		question: "When is the RSVP deadline?",
 		answer:
-			"Please RSVP by August 1st, so we can have an accurate headcount and prepare all accommodations for you.",
+			"Please RSVP by August 8th, so we can have an accurate headcount and prepare all accommodations for you.",
 	},
 	{
 		question: "Where should I park?",
@@ -30,7 +30,7 @@ const faqData = [
 	{
 		question: "Do you have a wedding registry?",
 		answer:
-			"Your presence is a gift to us ♡ If you feel inclined to bless us as a newlywed couple, we will graciously receive Venmo (@ptrshin) or cash contributions at the check in table.",
+			"Your presence is a gift to us ♡ If you feel inclined to bless us as a newlywed couple, we will graciously receive Venmo (@ptrshin) or cash contributions at the check in table. Thank you!",
 	},
 ];
 
@@ -42,7 +42,7 @@ const FAQ = () => {
 	};
 
 	return (
-		<div className="faq-section">
+		<div className="faq-section" id="faq">
 			<div className="faq-text">
 				<h1 className="faq-title">FAQ</h1>
 				<div className="faq-list">

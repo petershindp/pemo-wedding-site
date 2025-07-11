@@ -3,17 +3,15 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	min-height: 20vh;
-	width: 50vw;
+	min-height: 60vh; /* Increase for better vertical centering */
+	width: 100vw; /* Use full viewport width for responsiveness */
 	position: relative;
-	padding: 3rem 3rem 3rem 0rem;
 	background: #f3f4f6;
 	border-top: 1px solid #111;
 	border-bottom: 1px solid #111;
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 3vh;
 	margin-bottom: 3vh;
+	box-sizing: border-box;
 }
 
 .story-section::before {
@@ -25,9 +23,10 @@
 }
 
 .story-title {
-	font-family: "Cormorant Garamond", serif;
+	font-family: "DM Serif Display", serif;
 	font-size: 2.8rem;
-	font-weight: 400;
+	font-style: italic;
+	font-weight: 100;
 	color: #111;
 	margin: 0 2rem;
 	letter-spacing: 0.08em;
@@ -38,7 +37,7 @@
 	margin-top: 2rem;
 	background: linear-gradient(90deg, #111 60%, #3a2c23 100%);
 	color: #fff;
-	font-family: "Poppins", sans-serif;
+	font-family: "Urbanist", sans-serif;
 	font-size: 1.15rem;
 	font-weight: 500;
 	padding: 1rem 2.8rem;
@@ -86,7 +85,17 @@
 	height: 100%; /* Ensures it fills the parent for vertical centering */
 }
 
+@media (max-width: 900px) {
+	.story-section {
+		width: 100vw;
+	}
+}
+
 @media (max-width: 600px) {
+	.story-section {
+		min-height: 40vh;
+		width: 100vw;
+	}
 	.story-title {
 		font-size: 1.5rem;
 		margin: 0 1rem;

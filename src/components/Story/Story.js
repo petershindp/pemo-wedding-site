@@ -11,7 +11,7 @@ const Story = () => {
 	return (
 		<div className="story-section">
 			<div className="story">
-				<h1 className="story-title">See how it all started</h1>
+				<h1 className="story-title">See how it all started...</h1>
 				<button className="story-button" onClick={handleClick}>
 					Our Story
 				</button>

@@ -58,11 +58,11 @@
 
 .ceremony-title {
 	font-size: 4rem;
-	font-family: "'Cormorant Garamond', serif";
+	font-family: "DM Serif Display", serif;
 	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	font-weight: 100;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 @media (max-width: 1200px) {
@@ -100,13 +100,13 @@
 }
 
 .ceremony-time {
-	font-family: "'Poppins', sans-serif";
+	font-family: "Urbanist", sans-serif;
 	font-size: 1.25rem;
 }
 
 .ceremony-details {
 	font-size: 1.25rem;
-	font-family: "'Poppins', sans-serif";
+	font-family: "Urbanist", sans-serif;
 	margin-bottom: 0rem;
 }
 
