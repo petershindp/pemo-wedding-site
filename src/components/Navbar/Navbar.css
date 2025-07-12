@@ -63,6 +63,12 @@
 	margin: 0;
 }
 
+@media (max-width: 600px) {
+	.navbar-links {
+		gap: 15vw;
+	}
+}
+
 .navbar-links a {
 	text-decoration: none;
 	font-family: "Urbanist", sans-serif;
