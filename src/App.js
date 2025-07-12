@@ -110,7 +110,7 @@ function AnimatedRoutes() {
 
 function App() {
 	return (
-		<Router basename="/pemo-wedding-site">
+		<Router>
 			<Navbar />
 			<AnimatedRoutes />
 		</Router>
